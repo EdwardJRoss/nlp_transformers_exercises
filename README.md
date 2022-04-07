@@ -23,4 +23,10 @@ To run in Kaggle:
 
 This is a variation of classifying on the IMDB dataset from [Learning Word Vectors for Sentiment Analysis](https://aclanthology.org/P11-1015/), for which there are [good benchmarks](https://paperswithcode.com/sota/text-classification-on-imdb).
 
+# Chapter 4
 
+## Recipe Ingredient Entity Recognition
+
+This is for recognising ingredients from recipes, using the data from [A Named Entity Based Approach to Model Recipes](https://arxiv.org/abs/2004.12184), by Diwan, Batra, and Bagler.
+
+[Recipe NER with Stanford NLP](./notebooks/ch4-ner-recipe-stanford-crf.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/EdwardJRoss/nlp_transformers_exercises/blob/master/notebooks/ch4-ner-recipe-stanford-crf.ipynb) reproduces the results in the paper using Stanford NLP, showing that seqeval gives the same results. This does not use transformers, nor require a GPU.
