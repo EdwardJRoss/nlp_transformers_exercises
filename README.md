@@ -29,4 +29,8 @@ This is a variation of classifying on the IMDB dataset from [Learning Word Vecto
 
 This is for recognising ingredients from recipes, using the data from [A Named Entity Based Approach to Model Recipes](https://arxiv.org/abs/2004.12184), by Diwan, Batra, and Bagler.
 
-[Recipe NER with Stanford NLP](./notebooks/ch4-ner-recipe-stanford-crf.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/EdwardJRoss/nlp_transformers_exercises/blob/master/notebooks/ch4-ner-recipe-stanford-crf.ipynb) reproduces the results in the paper using Stanford NLP, showing that seqeval gives the same results. This does not use transformers, nor require a GPU.
+
+[Recipe NER with Stanford NLP](./notebooks/ch4-ner-recipe-stanford-crf.ipynb) [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/EdwardJRoss/nlp_transformers_exercises/blob/master/notebooks/ch4-ner-recipe-stanford-crf.ipynb) reproduces the results in the original paper using Stanford NLP, showing that seqeval gives the same results. This does not use transformers, nor require a GPU.
+
+[Recipe NER with XLM Roberta](./notebooks/ch4-ner-recipe-xlm-roberta.ipynb)[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/EdwardJRoss/nlp_transformers_exercises/blob/master/notebooks/ch4-ner-recipe-xlm-roberta.ipynb) follows the NLP with Transformers text, training a XLM Roberta model but on this recipe dataset.
+It performs essentially similarly to the Stanford NLP CRF model, but makes it easy to see annotation issues and has some zero-shot cross-language NER.
